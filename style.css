@@ -12,17 +12,20 @@ body {
     height: 50px;
     border-radius: 50%;
 }
-.nav img{
+
+.nav img {
     opacity: 0;
     transform: translateX(-100vw);
     animation: fadeInLeft 1s ease-in-out forwards;
 }
+
 @keyframes fadeInLeft {
-    0%{
+    0% {
         opacity: 0;
         transform: translateX(-100vw);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
@@ -36,17 +39,20 @@ body {
     color: white;
     font-weight: bold;
 }
-.sign{
+
+.sign {
     opacity: 0;
     transform: translateX(100vw);
     animation: fadeInRight 1s ease-in-out forwards;
 }
-@keyframes fadeInRight{
-    0%{
+
+@keyframes fadeInRight {
+    0% {
         opacity: 0;
         transform: translateX(100vw);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
@@ -73,7 +79,7 @@ body {
     gap: 900px;
     justify-content: center;
     padding-top: 20px;
-    
+
 }
 
 .trust h1 {
@@ -254,7 +260,7 @@ body {
     display: flex;
     width: 300px;
     border: 1px solid rgb(235, 224, 245);
-    
+
     height: 30px;
     gap: 75px;
     border-radius: 5px;
@@ -312,18 +318,21 @@ body {
     border-radius: 6px;
     background-color: rgb(235, 224, 245);
 }
-.in a{
+
+.in a {
     text-decoration: none;
     color: rgb(39, 24, 53);
     font-size: 15px;
     font-weight: bold;
 }
-.up a{
+
+.up a {
     text-decoration: none;
     color: rgb(39, 24, 53);
     font-size: 15px;
     font-weight: bold;
 }
+
 .up {
     width: 300px;
     height: 30px;
@@ -452,9 +461,11 @@ body {
     font-size: 12px;
 
 }
-.inc{
+
+.inc {
     font-size: 20px;
 }
+
 .ra {
     font-size: 12px;
     color: rgb(221, 218, 218);
@@ -508,437 +519,523 @@ select {
 
 
 }
-.uppy{
+
+.uppy {
     height: 400px;
     width: 400px;
     border-radius: 50%;
     mix-blend-mode: multiply;
-   
+
 
 
 }
-.uppy{
+
+.uppy {
     opacity: 0;
     transform: translateY(50px);
     animation: fadeUp 1s ease-in-out forwards;
 }
-@keyframes fadeUp{
-    0%{
+
+@keyframes fadeUp {
+    0% {
         opacity: 0;
         transform: translateY(50px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-.uppyo{
+
+.uppyo {
     height: 400px;
     width: 400px;
     border-radius: 50%;
     mix-blend-mode: multiply;
-   margin-top: 70px;
+    margin-top: 70px;
 
 
 }
-.uppyo{
+
+.uppyo {
     opacity: 0;
     transform: translateY(-20px);
     animation: fadeIn 1s ease-in-out forwards;
-    
+
 }
-@keyframes fadeIn{
-    0%{
+
+@keyframes fadeIn {
+    0% {
         opacity: 0;
         transform: translateY(-20px);
     }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.pn{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.cry{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.pr{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.aso{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.mn{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.lj{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.jl{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.lg{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.jk{
-    animation: scaleUp 1s ease-in-out forwards;
-    transform: scale(0);
-}
-@keyframes scaleUp {
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-.uy{
-    animation: scaleUp 1s ease-in-out forwards;
-    transform: scale(0);
-}
-@keyframes scaleUp {
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-.ad{
-    animation: scaleUp 1s ease-in-out forwards;
-    transform: scale(0);
-}
-@keyframes scaleUp {
-    0%{
-        transform: scale(0);
-    }
-    100%{
-        transform: scale(1);
-    }
-}
-.exchange-rate{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.des{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.inc{
-    opacity: 0;
-    transform: translateY(50px);
-    animation: fadeUp 1s ease-in-out forwards;
-}
-@keyframes fadeUp{
-    0%{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.input{
+.pn {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.cry {
     opacity: 0;
     transform: translateY(50px);
     animation: fadeUp 1s ease-in-out forwards;
 }
-@keyframes fadeUp{
-    0%{
+
+@keyframes fadeUp {
+    0% {
         opacity: 0;
         transform: translateY(50px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-.email{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.log{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.in{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.chec{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.don{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.up{
-    opacity: 0;
-    transform: translateY(-20px);
-    animation: fadeIn 1s ease-in-out forwards;
-    
-}
-@keyframes fadeIn{
-    0%{
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-.png{
+
+.pr {
     opacity: 0;
     transform: translateY(50px);
     animation: fadeUp 1s ease-in-out forwards;
 }
-@keyframes fadeUp{
-    0%{
+
+@keyframes fadeUp {
+    0% {
         opacity: 0;
         transform: translateY(50px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-.wil{
+
+.aso {
     opacity: 0;
     transform: translateY(50px);
     animation: fadeUp 1s ease-in-out forwards;
 }
-@keyframes fadeUp{
-    0%{
+
+@keyframes fadeUp {
+    0% {
         opacity: 0;
         transform: translateY(50px);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
 }
-.in:hover{
+
+.mn {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.lj {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.jl {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.lg {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.jk {
+    animation: scaleUp 1s ease-in-out forwards;
+    transform: scale(0);
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.uy {
+    animation: scaleUp 1s ease-in-out forwards;
+    transform: scale(0);
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ad {
+    animation: scaleUp 1s ease-in-out forwards;
+    transform: scale(0);
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.exchange-rate {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.des {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.inc {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.input {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.email {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.log {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.in {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.chec {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.don {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.up {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.png {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.wil {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.in:hover {
     background-color: rgb(20, 10, 29);
-    color:  rgb(216, 213, 213);
+    color: rgb(216, 213, 213);
 }
-.in a:hover{
-    color:  rgb(216, 213, 213);
+
+.in a:hover {
+    color: rgb(216, 213, 213);
 }
-.up:hover{
+
+.up:hover {
     background-color: rgb(20, 10, 29);
-    color:  rgb(216, 213, 213);
+    color: rgb(216, 213, 213);
 }
-.up a:hover{
-    color:  rgb(216, 213, 213);
+
+.up a:hover {
+    color: rgb(216, 213, 213);
 }
-.sign button:hover{
-    background-color:  rgb(216, 213, 213);
+
+.sign button:hover {
+    background-color: rgb(216, 213, 213);
     color: rgb(20, 10, 29);
 }
-.cry:hover{
+
+.cry:hover {
     border-bottom: 2px solid rgb(216, 213, 213);
 }
-.ppp{
+
+.ppp {
     height: 400px;
     width: 400px;
     border-radius: 50%;
     mix-blend-mode: multiply;
-    
-    
+
+
 }
-.oin{
+
+.oin {
     padding-top: 70px;
 }
-.jpp{
+
+.jpp {
     display: flex;
     gap: 94px;
 }
+
 .cry {
     border: none;
     background-color: transparent;
@@ -947,11 +1044,12 @@ select {
     font-weight: bold;
 }
 
-.oin{
+.oin {
     display: flex;
     gap: 65px;
     justify-content: center;
 }
+
 select option {
     background-color: black;
 
@@ -1112,24 +1210,29 @@ ul li span:hover {
     gap: 300px;
     justify-content: center;
     background: linear-gradient(45deg, rgb(71, 12, 71) 10%, rgb(180, 147, 211) 70%, rgb(180, 147, 211) 50%);
-    
+
 }
-.cry{
+
+.cry {
     margin-top: 30px;
 }
-.raar{
+
+.raar {
     display: flex;
-  gap: 700px;
+    gap: 700px;
     justify-content: center;
     padding-top: 20px;
 }
-.uh{
+
+.uh {
     padding-top: 30px;
 }
-.nabaa{
+
+.nabaa {
     background: linear-gradient(45deg, rgb(71, 12, 71) 10%, rgb(180, 147, 211) 70%, rgb(180, 147, 211) 50%);
 
 }
+
 .bh {
     background-color: transparent;
     color: white;
@@ -1140,7 +1243,7 @@ ul li span:hover {
     font-size: 18px;
 }
 
-#input-box input{
+#input-box input {
     color: white;
     outline: none;
 }
@@ -1151,50 +1254,64 @@ ul li span:hover {
     border-radius: 50%;
     margin-top: 20px;
 }
-.kk{
+
+.kk {
     display: flex;
-        width: 220px;
-        height: 50px;
-        border: 1px solid rgb(190, 188, 188);
-        border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 5px;
 }
-.km{
+
+.km {
     display: flex;
-        width: 160px;
-        height: 50px;
-        border: 1px solid rgb(190, 188, 188);
-        border-radius: 5px;
+    width: 160px;
+    height: 50px;
+    border: 1px solid rgb(190, 188, 188);
+    border-radius: 5px;
 }
-#result{
+
+#result {
     font-size: 19px;
     padding-top: 19px;
 }
+
 .aso {
     font-size: 15px;
     color: rgb(238, 231, 231);
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (max-width: 601px) {
+
+.icon a {
+    text-decoration: none;
+    color: rgb(190, 188, 188);
+}
+
+@media (max-width:601px) {
     .aso {
-        font-size: 13px;
-        color: rgb(155, 153, 153);
+        font-size: 15px;
+        color: rgb(216, 213, 213);
     }
 
     .mn {
         display: flex;
         gap: 200px;
     }
-    .nabaa{
+
+    .nabaa {
         padding-bottom: 200px;
     }
+
     .uy {
         width: 280px;
         padding-left: 10px;
         border: 1px solid rgb(190, 188, 188);
         border-radius: 10px;
     }
-     
-    
+
+    .chec {
+        gap: 30px;
+    }
 
     .lj {
         display: flex;
@@ -1213,9 +1330,10 @@ ul li span:hover {
         border-radius: 5px;
 
     }
+
     .hu {
         width: 330px;
-    
+
         padding-left: 20px;
         padding-top: 20px;
         padding-bottom: 25px;
@@ -1223,6 +1341,7 @@ ul li span:hover {
         backdrop-filter: blur(760px);
         box-shadow: 2px 2px 20px #ccc;
     }
+
     .kj {
         width: 40px;
         height: 30px;
@@ -1230,35 +1349,44 @@ ul li span:hover {
         margin-top: 10px;
         margin-right: 5px;
     }
-    .jpp{
-gap: 10px;
+
+    .jpp {
+        gap: 10px;
     }
-    .raar{
+
+    .raar {
         display: flex;
         gap: 40px;
 
     }
-    .uppyo{
+
+    .uppyo {
         display: none;
     }
-    .uppy{
+
+    .uppy {
         display: none;
     }
-    .sign button{
+
+    .sign button {
         margin-top: 18px;
     }
-    .jp img{
+
+    .jp img {
         width: 50px;
         height: 50px;
     }
-    .pr{
+
+    .pr {
         font-size: 22px;
     }
-    .pos img{
+
+    .pos img {
         display: none;
     }
+
     .jk {
-        width: 300px;
+        width: 280px;
         height: 40px;
         border: none;
         background-color: rgb(216, 213, 213);
@@ -1266,8 +1394,9 @@ gap: 10px;
         margin-top: 10px;
         font-size: 15px;
         font-weight: bold;
-    
+
     }
+
     .ad {
         border: none;
         background-color: transparent;
@@ -1278,12 +1407,13 @@ gap: 10px;
         margin-top: 20px;
         font-size: 15px;
     }
+
     .nav img {
         width: 50px;
         height: 50px;
         border-radius: 50%;
     }
-    
+
     .nav button {
         border: none;
         background-color: transparent;
@@ -1291,12 +1421,12 @@ gap: 10px;
         color: white;
         font-weight: bold;
     }
-    
+
     .nav {
         display: flex;
         gap: 20px;
     }
-    
+
     .sign button {
         width: 100px;
         height: 40px;
@@ -1307,16 +1437,16 @@ gap: 10px;
         color: white;
         border-radius: 10px;
     }
-    
+
     .navbar {
         display: flex;
         gap: 200px;
         justify-content: center;
         padding-top: 20px;
     }
-    
+
     .trust h1 {
-        font-size: 45px;
+        font-size: 35px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: rgb(213, 177, 247);
@@ -1328,57 +1458,69 @@ gap: 10px;
         padding-bottom: 20px;
         text-align: center;
     }
-    .curr{
+
+    .curr {
         font-size: 19px;
         padding-bottom: 20px;
         text-align: center;
     }
+
     .body {
         display: block;
-        
+
         justify-content: center;
         padding-bottom: 200px;
     }
-    .convert{
+
+    .convert {
         justify-content: center;
         padding-bottom: 30px;
     }
-    .icon{
+
+    .icon {
         display: flex;
         justify-content: center;
         margin-top: 26px;
         gap: 25px;
-    
+
     }
+
     .ji {
         display: block;
     }
+
     .blu {
         width: 600px;
         height: 150px;
         border-bottom-right-radius: 90px;
         display: none;
     }
-    .wel{
+
+    .wel {
         text-align: center;
     }
-    .bar{
+
+    .bar {
         display: flex;
         margin-top: none;
         justify-content: center;
         margin-top: 7px;
     }
-    .navb{
+
+    .navb {
         display: block;
     }
-    .wil{
+
+    .wil {
         text-align: center;
         padding-top: 20px;
     }
-    .png{
+
+    .png {
         display: flex;
         justify-content: center;
     }
+
     .email {
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
@@ -1386,18 +1528,28 @@ gap: 10px;
         padding-bottom: 10px;
         color: rgb(235, 224, 245);
     }
-    
+
+    .log {
+        text-align: center;
+    }
+
+    .mie {
+        display: flex;
+        justify-content: center;
+    }
+
     .input {
         display: flex;
-        width: 257px;
+        width: 270px;
         border: 1px solid rgb(235, 224, 245);
-        
+
         height: 30px;
         gap: 45px;
         border-radius: 5px;
         margin-top: 10px;
         margin-bottom: 20px;
     }
+
     .in {
         width: 259px;
         height: 30px;
@@ -1406,7 +1558,7 @@ gap: 10px;
         border-radius: 6px;
         background-color: rgb(235, 224, 245);
     }
-    
+
     .up {
         width: 259px;
         height: 30px;
@@ -1415,6 +1567,7 @@ gap: 10px;
         background-color: rgb(235, 224, 245);
         border: none;
     }
+
     .bod {
         margin-top: 40px;
         width: 320px;
@@ -1425,15 +1578,18 @@ gap: 10px;
         padding-top: 30px;
         margin-bottom: 40px;
     }
-    .sss{
+
+    .sss {
         display: flex;
         justify-content: center;
         margin-top: 30px;
     }
-    .exchange-rate{
+
+    .exchange-rate {
         width: 280px;
     }
 }
+
 @media (min-width :601px) and (max-width: 1000px) {
     .aso {
         font-size: 13px;
@@ -1444,17 +1600,19 @@ gap: 10px;
         display: flex;
         gap: 200px;
     }
-    .nabaa{
+
+    .nabaa {
         padding-bottom: 200px;
     }
+
     .uy {
         width: 280px;
         padding-left: 10px;
         border: 1px solid rgb(190, 188, 188);
         border-radius: 10px;
     }
-     
-    
+
+
 
     .lj {
         display: flex;
@@ -1473,9 +1631,10 @@ gap: 10px;
         border-radius: 5px;
 
     }
+
     .hu {
         width: 330px;
-    margin-top: 50px;
+        margin-top: 50px;
         padding-left: 20px;
         padding-top: 20px;
         padding-bottom: 25px;
@@ -1483,6 +1642,7 @@ gap: 10px;
         backdrop-filter: blur(760px);
         box-shadow: 2px 2px 20px #ccc;
     }
+
     .kj {
         width: 40px;
         height: 30px;
@@ -1490,24 +1650,30 @@ gap: 10px;
         margin-top: 10px;
         margin-right: 5px;
     }
-    .nabaa{
+
+    .nabaa {
         padding-bottom: 500px;
     }
-    .rar{
+
+    .rar {
         display: flex;
         gap: 600px;
 
     }
-    .sign button{
+
+    .sign button {
         margin-top: 18px;
     }
-    .jp img{
+
+    .jp img {
         width: 50px;
         height: 50px;
     }
-    .pr{
+
+    .pr {
         font-size: 22px;
     }
+
     .jk {
         width: 300px;
         height: 40px;
@@ -1517,7 +1683,7 @@ gap: 10px;
         margin-top: 10px;
         font-size: 15px;
         font-weight: bold;
-    
+
     }
 
     .ad {
@@ -1530,13 +1696,14 @@ gap: 10px;
         margin-top: 20px;
         font-size: 15px;
     }
+
     .navbar {
         display: flex;
         gap: 600px;
         justify-content: center;
         padding-top: 20px;
     }
-    
+
     .trust h1 {
         font-size: 65px;
         font-family: Arial, Helvetica, sans-serif;
@@ -1550,70 +1717,86 @@ gap: 10px;
         padding-bottom: 50px;
         text-align: center;
     }
-    .curr{
+
+    .curr {
         font-size: 20px;
         padding-bottom: 20px;
         text-align: center;
     }
+
     .body {
         display: block;
-        
+
         justify-content: center;
         padding-bottom: 350px;
     }
-    .convert{
+
+    .convert {
         justify-content: center;
         padding-bottom: 50px;
         padding-top: 80px;
     }
-    .icon{
+
+    .icon {
         display: flex;
         justify-content: center;
         margin-top: 26px;
         gap: 40px;
-    
+
     }
-    .ji{
+
+    .ji {
         display: block;
     }
-    .ji img{
+
+    .ji img {
         width: 500px;
         height: 200px;
     }
-    .ji p{
+
+    .ji p {
         text-align: center;
     }
-    .navb{
+
+    .navb {
         display: block;
     }
-    .bar{
+
+    .bar {
         display: flex;
         justify-content: center;
         margin-top: 25px;
     }
-    .wil{
+
+    .wil {
         text-align: center;
         padding-top: 19px;
     }
-    .png{
+
+    .png {
         justify-self: center;
     }
-    .sss{
+
+    .sss {
         display: flex;
         justify-content: center;
         margin-top: 50px;
     }
-    .uppy{
+
+    .uppy {
         display: none;
     }
-    .uppyo{
+
+    .uppyo {
         display: none;
     }
-    .raar{
+
+    .raar {
         gap: 200px;
     }
 }
-@media (min-width :1000px) and (max-width: 3000px){
+
+@media (min-width :1000px) and (max-width: 3000px) {
     .as0 {
         font-size: 13px;
         color: rgb(155, 153, 153);
@@ -1623,17 +1806,19 @@ gap: 10px;
         display: flex;
         gap: 340px;
     }
-    .nabaa{
+
+    .nabaa {
         padding-bottom: 200px;
     }
+
     .uy {
         width: 370px;
         padding-left: 10px;
         border: 1px solid rgb(190, 188, 188);
         border-radius: 10px;
     }
-     
-    
+
+
 
     .lj {
         display: flex;
@@ -1652,12 +1837,14 @@ gap: 10px;
         border-radius: 5px;
 
     }
-    .nabaa{
+
+    .nabaa {
         padding-bottom: 300px;
     }
+
     .hu {
         width: 420px;
-    
+
         padding-left: 20px;
         padding-top: 20px;
         padding-bottom: 25px;
@@ -1665,6 +1852,7 @@ gap: 10px;
         backdrop-filter: blur(760px);
         box-shadow: 2px 2px 20px #ccc;
     }
+
     .kj {
         width: 70px;
         height: 30px;
@@ -1672,21 +1860,26 @@ gap: 10px;
         margin-top: 10px;
         margin-right: 5px;
     }
-    .rar{
+
+    .rar {
         display: flex;
         gap: 1100px;
 
     }
-    .sign button{
+
+    .sign button {
         margin-top: 18px;
     }
-    .jp img{
+
+    .jp img {
         width: 200px;
         height: 200px;
     }
-    .pr{
+
+    .pr {
         font-size: 22px;
     }
+
     .jk {
         width: 380px;
         height: 40px;
@@ -1696,31 +1889,34 @@ gap: 10px;
         margin-top: 10px;
         font-size: 15px;
         font-weight: bold;
-    
+
     }
 
-    .upy{
+    .upy {
         height: 00px;
         width: 300px;
-        
+
         mix-blend-mode: multiply;
         position: absolute;
-    
-        
-        
+
+
+
     }
-    .poi{
+
+    .poi {
         position: relative;
     }
-    .ppo{
+
+    .ppo {
         height: 400px;
         width: 400px;
-        
+
         mix-blend-mode: multiply;
         position: absolute;
-        
-    
+
+
     }
+
     .ad {
         border: none;
         background-color: transparent;
@@ -1730,41 +1926,50 @@ gap: 10px;
         margin-left: 330px;
         margin-top: 20px;
         font-size: 15px;
-    }  
-    .trust h1{
+    }
+
+    .trust h1 {
         padding-top: 120px;
-    } 
-    .convert{
+    }
+
+    .convert {
         padding-top: 90px;
         padding-top: 120px;
     }
-    .body{
+
+    .body {
         padding-bottom: 300px;
     }
- .icon button{
-    margin-top: 50px;
- } 
- .icon{
-    margin-top: 320px;
- }  
- .nav img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-.navbar {
-    display: flex;
-    gap: 1100px;
-    justify-content: center;
-    padding-top: 20px;
-    
-}
-.ji img{
-    width: 500px;
-    height: 200px;
-}
-.navba{
-    padding-bottom: 200px;
-}
+
+    .icon button {
+        margin-top: 50px;
+    }
+
+    .icon {
+        margin-top: 320px;
+    }
+
+    .nav img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 1100px;
+        justify-content: center;
+        padding-top: 20px;
+
+    }
+
+    .ji img {
+        width: 500px;
+        height: 200px;
+    }
+
+    .navba {
+        padding-bottom: 200px;
+    }
 
 }
