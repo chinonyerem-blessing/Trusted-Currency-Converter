@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="navba">
+      <div class="ji">
+        <img class="blu" src="blue.jpg" />
+        <p class="wel">Welcome &#128075; <span class="auto-type"></span></p>
+      </div>
+        
+        <div class="navb">
+            <div class="bar">
+                
+                <div class="png">
+                    <img src="trusted.png">
+                    <div>
+                        <p class="trust">Trusted</p>
+                        <p class="start">Innovation Starts Here</p>
+                    </div>
+                </div>
+                <p class="wil">You will be Using Our exceptional <br>Currency Converter</p>
+            </div>
+            <div class="bod">
+                <div class="bo">
+                    <div>
+                        <p class="log">Log in to Trusted</p>
+                        <label class="email">Your Email</label>
+                        <div class="input">
+                            <input type="email" required>
+                            <p><i class="fa-solid fa-envelope"></i></p>
+                        </div>
+                        <label class="email">Your Password</label>
+                        <div class="input">
+                            <input type="password" required>
+                            <p><i class="fa-regular fa-eye-slash"></i></p>
+                        </div>
+                        <div class="chec">
+                            <div class="check">
+                                <input type="checkbox" required/>
+                                <p>Remember me </p>
+                            </div>
+                            <p>Forgotten password?</p>
+                        </div>
+                        <button class="in" onclick="signUp()">Log in</button>
+                        <p class="don">Don't have an account</p>
+                        <button class="up" onclick="signIn()">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["to trusted currency converter", "we convert all kinds of country currency","we convert cryptocurrencies", "We give room for description"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            looped: true
+        })
+    </script>
+    <script src="conutry.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header></header>
+
+    <div class="nabaa">
+
+        <div class="raar">
+            <div class="jpp">
+                <img class="pn" src="trusted.png" />
+                <div>
+                    <button onclick="country()" class="cry">convert country currencies</button>
+                </div>
+            </div>
+            <div class="sign">
+                <button onclick="logOut()">Log Out</button>
+            </div>
+        </div>
+        
+        <div class="oin">
+            <div>
+                <img class="uppy" src="bitcoin.jpg">
+            </div>
+            <div class="hu">
+                <h2 class="pr">Trusted Currency Converter</h2>
+                <div class="amount">
+                    <p class="aso">Add the currency you want to convert</p>
+
+                    <input class="mk" type="text" name="amount" id="amount" placeholder="00.00" required>
+                </div>
+
+                <div class="mn">
+                    <p>From</p>
+                    <p>To</p>
+                </div>
+                <div>
+                    <div class="jn">
+                        <form action="">
+                            <div class="lj">
+                                <select class="seelect" name="toCurrency" id="toCurrency" onchange="showCurrencyName()">
+                                    <option value="BTC">Bitcoin</option>
+                                    <option value="ETH">Ethereum</option>
+                                    <option value="USDT">Tether</option>
+                                    <option value="BNB">Binance Coin</option>
+                                    <option value="USDC">USD Coin</option>
+                                    <option value="XRP">XRP (XRP)</option>
+                                    <option value="BUSD">Binance USD</option>
+                                    <option value="ADA">cardano</option>
+                                    <option value="DOGE">Dogecoin</option>
+                                    <option value="MATIC">Polygon</option>
+                                    <option value="SOL">Solana</option>
+                                    <option value="DOT">Polkadot</option>
+                                    <option value="SHIB">Shiba Inu</option>
+                                    <option value="LTC">Litecoin </option>
+                                    <option value="TRX">Tron</option>
+                                    <option value="AVAX">Avalanche</option>
+                                </select>
+    
+                            </div>
+
+
+                            
+                        </form>
+                        <div class="lg">
+                            <p><i class="fa-solid fa-arrow-right-arrow-left"></i></p>
+                        </div>
+                       
+                        <div id="select-field" class="lj">
+                            <img class="kj" src="https://flagsapi.com/AU/shiny/64.png" class="K" alt="" />
+                            <select class="seelect" name="fromCurrency" id="fromCurrency" onchange="showFromCurrencyName()">
+                            <!--<option value="USD" selected=""> <img class="kj" src="https://flagsapi.com/US/shiny/64.png" class="K" alt="" /> USD</option>
+                                <option value="EUR">EUR </option>
+                                <option value="GBP">GBP </option>
+                                <option value="CAD">CAD</option>
+                                <option value="AUD">AUD </option>
+                                <option value="JPY">JPY</option>
+                                <option value="INR">INR</option>
+                                <option value="NZD">NZD</option>
+                                <option value="CHF">CHF - Swiss Franc</option>
+                                <option value="ZAR">ZAR - South African Rand</option>
+                                <option value="BGN">BGN - Bulgarian Lev</option>
+                                <option value="SGD">SGD - Singapore Dollar</option>
+                                <option value="HKD">HKD - Hong Kong Dollar</option>
+                                <option value="SEK">SEK - Swedish Krona</option>
+                                <option value="THB">THB - Thai Baht</option>
+                                <option value="HUF">HUF - Hungarian Forint</option>
+                                <option value="CNY">CNY - Chinese Yuan Renminbi</option>
+                                <option value="NOK">NOK - Norwegian Krone</option>
+                                <option value="MXN">MXN - Mexican Peso</option>
+                                <option value="GHS">GHS - Ghanians Cedi</option>
+                                <option value="NGN">NGN - Nigerian Naira</option>-->  
+                            </select>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+                <p id="result" class="exchange-rate">Getting Exchange rate...</p>
+                <br>
+
+                <button class="jk" type="button" id="convert" class="primary-btn">
+                    Get Exchange Rate
+                </button>
+                <p class="des">Description</p>
+                <div class="uy">
+                    <input class="bh" type="text" id="input-box" placeholder="Add description here..." />
+                    <p class="ra">80 Characters</p>
+                </div>
+                <div class="plus">
+                    <button class="ad" onclick="addTask()"><i class="fa-solid fa-plus"></i> Add</button><br />
+                </div>
+
+                <p class="inc">Included</p>
+                <ul id="list-container">
+                    <li>liyu</li>
+                    <li>ku</li>
+                </ul>
+                </form>
+
+
+            </div>
+            <div>
+                
+                
+                <img class="uppyo" src="soloo.jpg">
+            </div>
+        </div>
+        
+
+       
+        <script src="conutry.js"></script>
+        <script src="crypto.js"></script>
+        <script src="countryList.js"></script>
+</body>
+
+</html>
